@@ -1,0 +1,149 @@
+<style>
+    .head1 {
+        text-align: center;
+        font-size:40px;
+        color:#c6b1c9;
+        font-weight:bold;
+    }
+    .head2 {
+        text-align: center;
+        font-size:17px;
+        margin-left:10px;
+        margin-bottom:15px;
+    }
+    body {
+        font-family: sans-serif;
+        margin: 0 auto;
+        background-position:center;
+        background-size: contain;
+    }
+
+    .menu {
+        position: sticky;
+        top: 0;
+        background-color: #8e6995;
+        padding:10px 0px 10px 0px;
+        color:white;
+        margin: 0 auto;
+        overflow: hidden;
+    }
+    .menu a {
+        float: left;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 20px;
+    }
+    .menu-log {
+        right: auto;
+        float: right;
+    }
+    footer {
+        width: 100%;
+        bottom: 0px;
+        background-color: #572364;
+        color: #fff;
+        padding-top:20px;
+        padding-bottom:50px;
+        text-align:center;
+        font-size:30px;
+        font-weight:bold;
+    }
+    /* Botón Morado Claro */
+    .btn-morado-claro {
+        background-color: #e0b3ff; /* Morado claro */
+        color: #fff;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 5px;
+        font-size: 16px;
+        cursor: pointer;
+        transition: background-color 0.3s ease, transform 0.2s ease;
+    }
+
+    .btn-morado-claro:hover {
+        background-color: #d19bf4; /* Morado un poco más oscuro */
+        transform: scale(1.05); /* Efecto de crecimiento */
+    }
+
+    /* Botón Morado Medio */
+    .btn-morado-medio {
+        background-color: #ba73ff; /* Morado medio */
+        color: #fff;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 5px;
+        font-size: 16px;
+        cursor: pointer;
+        transition: background-color 0.3s ease, transform 0.2s ease;
+    }
+
+    .btn-morado-medio:hover {
+        background-color: #a65ce6;
+        transform: scale(1.05);
+    }
+
+    /* Botón Morado Oscuro */
+    .btn-morado-oscuro {
+        background-color: #8e44ad;
+        color: #fff;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 5px;
+        font-size: 16px;
+        cursor: pointer;
+        transition: background-color 0.3s ease, transform 0.2s ease;
+    }
+
+    .btn-morado-oscuro:hover {
+        background-color: #732d91;
+        transform: scale(1.05);
+    }
+
+    .body_sec {
+        margin-left:20px;
+    }
+    .btn-ver {
+        background-color: #8fbdef;
+        color: #0c0c0c;
+        border: none;
+        padding: 5px 10px;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+    }
+
+    .btn-ver:hover {
+        background-color: #4c8fdc;
+    }
+
+    .btn-editar {
+        background-color: #a0e69a;
+        color: black;
+        border: none;
+        padding: 5px 10px;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+    }
+
+    .btn-editar:hover {
+        background-color: #77e878;
+    }
+
+    .btn-eliminar {
+        background-color: #e6a2a8;
+        color: #0b0a0a;
+        border: none;
+        padding: 5px 10px;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+    }
+
+    .btn-eliminar:hover {
+        background-color: #e66b78;
+    }
+
+</style>
